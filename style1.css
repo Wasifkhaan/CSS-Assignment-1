@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.blue-bar {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px; 
+
+    text-align: left;
+    font-size: 24px;
+}
+
+.purple-text {
+    color: purple;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    font-size: 18px;
+}
+
+.yellow-bar {
+    background-color: yellow;
+    color: orange;
+    padding: 10px;
+    margin-bottom: 10px; 
+
+    text-align: left;
+    font-size: 18px;
+}
+
+.green-bar {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    text-align: left;
+    font-size: 18px;
+}
+.button-back{
+    width: 200px;
+    height: 50px;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 1px 2px 9px gray;
+    transition: 0.3s;
+}
+.button-back:hover {
+    background-color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    color: white;
+    box-shadow: 2px 5px 9px rgb(255, 255, 255);
+    transition: 0.3s;
+}
